@@ -235,7 +235,7 @@ header#header {
 .login-page {
     height: 100vh;
 }
-.login-page .btn-primary a {
+.btn-anchor {
     text-decoration: none;
     color: inherit;
 }
