@@ -497,5 +497,6 @@ footer#footer {
   .signup-page .cancelbtn,
   .signup-page .signupbtn {
      width: 100%;
+     margin:0;
   }
 }
