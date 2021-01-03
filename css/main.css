@@ -1,0 +1,500 @@
+html {
+    font-size: 14px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #0F1111;
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*===========Header-section===========*/
+header#header {
+    background-color: #232f3e;
+}
+
+#header .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.menu-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-section ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: 40px;
+}
+
+/*===========slider===========*/
+.main-container {
+    background-color: #EAEDED;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*==================Cards ==================*/
+.shopping-carts {
+    padding: 50px 0;
+}
+
+
+.items {
+    padding: 0 10px 30px;
+    display: flex;
+}
+
+.items-in {
+    background: #fff;
+    border-radius: 2px;
+    padding: 20px 0 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-header {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.items-header h2 {
+    font-size: 20px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    font-weight: 700;
+}
+
+.items-body {
+    padding: 0 20px;
+    margin-bottom: 44px;
+}
+
+.items-body img {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.items-footer {
+    padding: 0 20px;
+}
+
+.items-footer .read-more {
+    text-decoration: none;
+    color: #007185;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    font-size: 13px!important;
+    line-height: 19px!important;
+    font-weight: 700;
+}
+
+
+/*=========== About Page ===========*/
+
+.banner-area {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px;
+}
+
+.banner-area h1 {
+    color: #fff;
+}
+
+.banner-area:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0,0,0,.2);
+}
+
+.banner-area .container {
+    position: relative;
+    z-index: 99;
+}
+
+/*=========About Page=========*/
+.about-content p:last-child,
+.history p:last-child {
+    margin: 0;
+}
+
+.body-content-abt,
+.history {
+    padding: 30px 0;
+}
+
+
+/*=========Contact Page=========*/
+
+
+.contact-page input[type=text], 
+.contact-page select,
+ .contact-page textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-page input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-page input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.signup-page .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact-page {
+ padding: 50px 10px;
+}
+.contact-page h3 {
+    text-align: center;
+}
+/*=========== Login Page ===========*/
+
+.login-container {
+    height: 300px;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 30px;
+    border: solid 1px #c6b5b5;
+    background-color: #eed;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 6px 3px rgb(134 126 126 / 60%);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.login-page {
+    height: 100vh;
+}
+
+
+/*==================Signin Page==================*/
+.signup-page {
+    padding: 50px 10px;
+}
+
+.signup-page .container{
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Full-width input fields */
+.signup-page input[type=text], 
+.signup-page input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+  border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+.signup-page input[type=text]:focus,
+ .signup-page input[type=password]:focus {
+  outline: none;
+}
+
+.signup-page hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.signup-page button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signup-page button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.signup-page .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.signup-page .cancelbtn, 
+.signup-page .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.signup-page .container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.signup-page .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/*===========Footer===========*/
+
+
+footer#footer {
+    background-color: #131A22;
+    padding: 20px 0;
+}
+.footer-top {
+    padding: 30px 0;
+}
+
+.footer-top ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-top ul li {
+    padding: 5px 0;
+}
+
+.footer-top ul li a {
+    color: #fff;
+    text-decoration: none;
+        display: block;
+}
+
+.footer-top h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-bottom,.footer-bottom ul {
+    display: flex;
+}
+
+.footer-bottom ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-bottom {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.footer-bottom ul li {
+    padding: 0 10px;
+}
+
+.footer-bottom ul li a {
+    color: #fff;
+}
+
+.footer-bottom ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*==================================================== 
+====================Media Query======================
+====================================================*/
+@media (min-width: 768px) {
+.menu-section {
+    display: block !important;
+}
+
+}
+
+@media (max-width: 991px) {
+    .copyright {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copyright >* {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-bottom ul {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-section {
+        display: none;
+    }
+
+    .menu-section ul {
+        display: block;
+    }
+
+    .items {
+        width: 100%;
+    }
+
+    .mobile-trigger {
+        display: inline-block !important;
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        width: auto;
+        height: auto;
+        padding: 7px 10px 8px 10px;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: left;
+        color: #000;
+    }
+
+    /* Toggle Button Icon */
+    .mobile-trigger i {
+        display: inline;
+        position: relative;
+        top: -4px;
+    }
+
+    .mobile-trigger i:before, .mobile-trigger i:after {
+        position: absolute;
+        content: '';
+    }
+
+    .mobile-trigger i, .mobile-trigger i:before, .mobile-trigger i:after {
+        width: 22px;
+        height: 2px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+        background-color: #fff;
+        display: inline-block;
+    }
+
+    .mobile-trigger i:before {
+        top: -6px;
+    }
+
+    /* Position top line */
+    .mobile-trigger i:after {
+        top: 6px;
+    }
+
+    /* Position bottom line */
+    .mobile-trigger:hover i, .mobile-trigger:hover i:before, .mobile-trigger:hover i:after, .mobile-open .mobile-trigger i, .mobile-open .mobile-trigger i:before, .mobile-open .mobile-trigger i:after {
+        background-color: #fff;
+        /* Icon color */
+    }
+
+    .menu-section {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        z-index: 666;
+        background-color: #232f3e;
+    }
+    .footer-top>div:first-child {
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 575px) {
+    .footer-bottom ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signup-page .cancelbtn,
+  .signup-page .signupbtn {
+     width: 100%;
+  }
+}

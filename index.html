@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Online Shopping</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <script type="text/javascript" src="script/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo col-sm-6">
+                <a href="index.html">
+                    <img src="images/logo1.png" alt="logo" />
+                </a>
+            </div>
+            <div class="mobile-trigger"><i></i></div>
+            <div class="menu-section col-sm-6">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="signup.html">Signup</a>
+                    </li>
+                    <li>
+                        <a href="login.html" target="_blank">Login</a>
+                    </li>
+                    <li>
+                        <a href="/card">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pc1500x600._CB412535531_.jpg" alt="pc1500x600" width="1100" height="600" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gaming_1500x600._CB431281464_.jpg" alt="gaming" width="1100" height="600" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/V240911677_IN_WLME_Nokia_5.3_LP_Tall_hero_1500x600._CB412602534_.jpg"
+                        alt="IN_WLME_Nokia" width="1100" height="600" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Header_1500x600._CB412497578_.jpg" alt="Header_1500x600" width="1100"
+                        height="600" />
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="shopping-carts">
+            <div class="container">
+                <div class="item-wrap d-flex flex-wrap">
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Pay your credit card bills on Amazon
+                                </h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg"
+                                        alt="DesktopGateway" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Laptop Offers</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Laptops-Sept2019._CB436595915_.jpg" alt="Laptops" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Effective dishwashing for Indian
+                                    cooking</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/379x304._SY304_CB414475836_.jpg" alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Refurbished mobiles</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Ver2_GW._SY304_CB446171261_.jpg" alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4 col-md-6">
+                        <div class="items-in">
+                            <div class="items-header">
+                                <h2 class="a-color-base headline truncate-2line">Chocolates, sweets &amp; more</h2>
+                            </div>
+                            <div class="items-body">
+                                <a href="#">
+                                    <img src="images/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+                                        alt="Chocolates" />
+                                </a>
+                            </div>
+                            <div class="items-footer">
+                                <a class="read-more" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-top d-flex flex-wrap">
+                <div class="col-lg-4 col-md-6">
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="signup.html">Signup</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Connect with Us</h3>
+                    <ul>
+                        <li>
+                            <a href="http://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&amp;token=2075D5EAC7BB214089728E2183FD391706D41E94&amp;6"
+                                target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="http://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&amp;token=A309DFBFCB1E37A808FF531934855DC817F130B6&amp;6"
+                                target="_blank">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="http://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&amp;token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&amp;source=standards"
+                                target="_blank">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <ul>
+                        <li>
+                            <a href="#">Conditions of Use &amp; Sale</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Notice</a>
+                        </li>
+                        <li>
+                            <a href="#">Interest-Based Ads</a>
+                        </li>
+                    </ul>
+                    <span>© 1996-2020, Amazon.com, Inc. or its affiliates</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
