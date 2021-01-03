@@ -208,6 +208,10 @@ header#header {
 .contact-page h3 {
     text-align: center;
 }
+.login-page .btn-primary a {
+    text-decoration: none;
+    color: inherit;
+}
 /*=========== Login Page ===========*/
 
 .login-container {
