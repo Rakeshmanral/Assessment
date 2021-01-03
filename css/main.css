@@ -235,7 +235,10 @@ header#header {
 .login-page {
     height: 100vh;
 }
-
+.login-page .btn-primary a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /*==================Signin Page==================*/
 .signup-page {
